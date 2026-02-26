@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playbook-P-INT-T2-S1.5</title>
+    <title>Playbook-P-INT-S2</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <h1><span class="book-icon">💡</span> <strong>Playbook: Proyecto Integrador T2 - Sesión 1.5</strong></h1>
+        <h1><span class="book-icon">💡</span> <strong>Playbook: Proyecto Integrador  - Sesión 2</strong></h1>
         <div class="header-widgets">
             <div class="timer-container">
                 <span id="global-timer">⏱️ 40:00</span>
@@ -28,376 +27,300 @@
             </div>
         </div>
     </header>
-
     <div class="main-container">
         <aside class="activity-list">
             <h2>Actividades</h2>
             <ul>
-                <li><a href="#activity-0">📝</a></li>
-                <li><a href="#activity-1">1</a></li>
-                <li><a href="#activity-2">2</a></li>
-                <li><a href="#activity-3">3</a></li>
-                <li><a href="#activity-4">4</a></li>
-                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-0">📝 Comando Central</a></li>
+                <li><a href="#activity-1">1. El Puente de Datos</a></li>
+                <li><a href="#activity-2">2. Be The Algorithm</a></li>
+                <li><a href="#activity-3">3. Vibe Coding: Fetch</a></li>
+                <li><a href="#activity-4">4. The Bug Bash</a></li>
+                <li><a href="#activity-5">5. Deuda Técnica</a></li>
             </ul>
         </aside>
-
         <main class="content">
             <div class="progress-bar">
                 <div class="progress"></div>
             </div>
-
             <!-- ACTIVIDAD 0: DE UN VISTAZO -->
             <div class="activity-card" id="activity-0">
                 <h2><span class="book-icon">📝</span> De un Vistazo: Comando Central</h2>
-                <p class="overview-subtitle">Sesión "Booster": Stress Test y Manejo de Errores para el Sistema Robótico.</p>
-                
+                <p class="overview-subtitle">Orquestación y Auditoría: Conectando Frontends con Backends Automatizados.</p>
                 <div class="command-section">
                     <h3>🎯 Objetivo de Aprendizaje</h3>
                     <div class="objective-box">
-                        <p><strong>Los estudiantes podrán:</strong> Identificar posibles puntos de fallo en sus "System Blueprints" (Stress Test) y diseñar lógica de programación (Manejo de Errores) para que el robot reaccione ante imprevistos.</p>
+                        <p><strong>Los estudiantes podrán:</strong> Conectar una interfaz de usuario con backends en Make.com o Python mediante Fetch API, utilizando técnicas de Vibe Coding para la implementación y auditorías de IA para garantizar la calidad del software.</p>
                     </div>
                 </div>
-
                 <div class="command-section xolo-prompt">
                     <h3>🤖 Prompt de Referencia para XOLO (Solo para Maestro)</h3>
                     <div class="prompt-box">
                         <div class="prompt-header">
-                            <span class="prompt-label">⚠️ NOTA: XOLO actúa como Ingeniero de Fiabilidad automáticamente. Usar solo en emergencia:</span>
-                            <button class="copy-btn" onclick="copyPrompt('main-prompt')">
+                            <span class="prompt-label">⚠️ NOTA: XOLO actúa como Senior Code Reviewer. Formato RCTFA:</span>
+                            <button class="copy-btn">
                                 <i class="fas fa-copy"></i> Copiar
                             </button>
                         </div>
-                        <pre id="main-prompt">Actúa como Ingeniero de Fiabilidad experto en robótica. Revisa los pasos de mi robot (Cutebot + AI Lens) y ayúdame a identificar posibles fallos (Red Team) y cómo programar la solución (ej: timeouts, alertas sonoras, reintentos). Sé crítico pero constructivo.</pre>
+                        <pre id="main-prompt">**Role**: Senior Fullstack Developer & Security Auditor.
+**Context**: Estudiantes de preparatoria están integrando un frontend JavaScript con un backend de automatización (Make.com/Python).
+**Task**: Revisa el código de integración Fetch proporcionado. Identifica 'Code Smells', riesgos de seguridad (como API keys expuestas) y errores de asincronía. 
+**Format**: Lista estructurada de hallazgos y una versión refactorizada siguiendo principios de código limpio.
+**Adjectives**: Crítico, constructivo y profesional.</pre>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>⚡ Puntos Esenciales de la Misión</h3>
                     <div class="essentials-grid">
                         <div class="essential-card">
-                            <div class="essential-icon">🛡️</div>
+                            <div class="essential-icon">🏗️</div>
                             <h4>Concepto Clave</h4>
-                            <p>Planificación de Fallos (Error Handling): Diseñar para cuando las cosas salen mal, no solo para el éxito.</p>
+                            <p>Orquestación de APIs: Conectar el cliente con flujos lógicos externos (Webhooks/Agents).</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">🔧</div>
                             <h4>Habilidad Técnica</h4>
-                            <p>Lógica condicional para excepciones (If error -> Then recover).</p>
+                            <p>Vibe Coding con Fetch: Generación y depuración de código asíncrono mediante prompts técnicos.</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">🚩</div>
-                            <h4>Dinámica: Red Team</h4>
-                            <p>Simular el "Equipo Rojo" para atacar los propios planos y encontrar debilidades.</p>
+                            <h4>Dinámica: The Bug Bash</h4>
+                            <p>Sesión de auditoría intensiva para eliminar deuda técnica antes del despliegue.</p>
                         </div>
                         <div class="essential-card">
-                            <div class="essential-icon">💬</div>
+                            <div class="essential-icon">🧠</div>
                             <h4>Interacción con XOLO</h4>
-                            <p>XOLO actúa como "Consultor de Fiabilidad". Cuestiona los planos de los alumnos para hacerlos robustos.</p>
+                            <p>XOLO actúa como el filtro de calidad profesional que valida la mantenibilidad del proyecto.</p>
                         </div>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>📦 Checklist de Materiales</h3>
                     <div class="materials-checklist">
-                        <label><input type="checkbox"> Proyector/pantalla + presentación (Diapositivas 1-5)</label>
-                        <label><input type="checkbox"> Internet estable + Gnius Space con XOLO activo</label>
-                        <label><input type="checkbox"> "System Blueprints" de la Sesión 1 (Digital o Impreso)</label>
-                        <label><input type="checkbox"> Plantillas actualizadas "Manejo de Errores"</label>
+                        <label><input type="checkbox"> Proyector/pantalla + presentación (Diapositivas 1-6)</label>
+                        <label><input type="checkbox"> Webhooks configurados en Make.com o API en Python</label>
+                        <label><input type="checkbox"> VS Code / Cursor con el proyecto iniciado</label>
+                        <label><input type="checkbox"> Acceso a XOLO o LLM alternativo para validación técnica</label>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>🗓️ Secuencia de la Misión (40 min)</h3>
                     <div class="timeline">
                         <div class="timeline-item">
                             <div class="timeline-dot">1</div>
                             <div class="timeline-content">
-                                <strong>Intro: Plan Ideal vs Realista</strong>
+                                <strong>Intro: El Puente de Datos</strong>
                                 <span class="time-badge">5 min</span>
-                                <p>Introducción al diseño robusto y mentalidad de ingeniero.</p>
+                                <p>El rol de las APIs en la arquitectura moderna.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot">2</div>
                             <div class="timeline-content">
-                                <strong>Simulacro Red Team (Con XOLO)</strong>
-                                <span class="time-badge">15 min</span>
-                                <p>XOLO cuestiona los diseños: "¿Qué pasa si...?"</p>
+                                <strong>Be The Algorithm: ReAct Flow</strong>
+                                <span class="time-badge">10 min</span>
+                                <p>Simulación del flujo Petición -> Webhook -> Respuesta.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot">3</div>
                             <div class="timeline-content">
-                                <strong>Brain Spark: Blueprint Robusto</strong>
-                                <span class="time-badge">15 min</span>
-                                <p>Documentar las soluciones y planes de contingencia.</p>
+                                <strong>Vibe Coding: Implementación</strong>
+                                <span class="time-badge">10 min</span>
+                                <p>Uso de IA para generar el puente de comunicación.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot">4</div>
                             <div class="timeline-content">
-                                <strong>Gnius STORM - Cierre</strong>
-                                <span class="time-badge">3 min</span>
-                                <p>Reflexión sobre la fiabilidad del sistema.</p>
+                                <strong>The Bug Bash (AI Audit)</strong>
+                                <span class="time-badge">10 min</span>
+                                <p>Refactorización y limpieza de código con XOLO.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot">5</div>
                             <div class="timeline-content">
-                                <strong>Guardado de Planos</strong>
-                                <span class="time-badge">2 min</span>
-                                <p>Asegurar entregables para la fase de construcción.</p>
+                                <strong>Cierre: Deuda Técnica</strong>
+                                <span class="time-badge">5 min</span>
+                                <p>Registro de mejoras pendientes y evidencias.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="command-section">
-                    <h3>🚨 Resolución Rápida de Problemas</h3>
-                    <div class="troubleshooting-list">
-                        <ul>
-                            <li><strong>Si XOLO no sugiere fallos:</strong> Pide al alumno ser más específico: "Xolo, mi robot debe agarrar un cubo, ¿qué puede fallar?".</li>
-                            <li><strong>Si los alumnos se frustran con los fallos:</strong> Reenmarca el problema: "Mejor encontrar el error hoy en papel que mañana en el robot".</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
-
-            <!-- ACTIVIDAD 1: INTRO A LA MISIÓN -->
+            <!-- ACTIVIDAD 1: INTRO -->
             <div class="activity-card" id="activity-1">
                 <div class="activity-header">
-                    <h2>🚀 Actividad 1: Intro - Del Plan Ideal al Realista</h2>
+                    <h2>🚀 Actividad 1: Intro - El Puente de Datos</h2>
                     <div class="activity-timer">
                         <span class="activity-duration">⏱️ 5:00</span>
                         <button class="timer-start-btn" data-duration="300">Iniciar</button>
                     </div>
                 </div>
-
                 <div class="roles-section">
                     <div class="role-card role-teacher">
                         <h4>👨‍🏫 Rol del Maestro</h4>
                         <ul>
-                            <li>Explicar que hoy es una sesión "Booster".</li>
-                            <li>Diferenciar entre "Camino Feliz" (todo sale bien) y "Mundo Real" (fallos).</li>
-                            <li>Proyectar Diapositiva 1.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-xolo">
-                        <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">✅ XOLO LISTO</p>
-                        <ul>
-                            <li>Preparado con su rol de Ingeniero de Fiabilidad.</li>
-                            <li>Conoce el contexto de los proyectos de los alumnos.</li>
+                            <li>Presentar el concepto de "Sistemas Desconectados" vs "Sistemas Orquestados".</li>
+                            <li>Explicar cómo la Fetch API actúa como el tejido conector entre UI y Lógica.</li>
+                            <li>Proyectar Diapositiva 1: La anatomía de una Request profesional.</li>
                         </ul>
                     </div>
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Revisar su Blueprint de la sesión anterior.</li>
-                            <li>Entender que hoy "atacarán" su propio diseño.</li>
+                            <li>Analizar su arquitectura actual e identificar los puntos de salida de datos (formularios, clics).</li>
                         </ul>
                     </div>
                 </div>
-
-                <div class="slide-reference">
-                    <h4>📊 Diapositiva 1: Objetivos</h4>
-                    <div class="slide-content">
-                        <p><strong>🎯 Misión de Hoy:</strong></p>
-                        <p class="highlight-text">Convertir un plan "optimista" en un plan "a prueba de balas".</p>
-                        <p><strong>¿Por qué?</strong> Porque en la robótica real, los sensores fallan, la luz cambia y las baterías se agotan. ¡Debemos estar listos!</p>
-                    </div>
-                </div>
             </div>
-
-            <!-- ACTIVIDAD 2: SIMULACRO RED TEAM -->
+            <!-- ACTIVIDAD 2: BE THE ALGORITHM -->
             <div class="activity-card" id="activity-2">
                 <div class="activity-header">
-                    <h2>🧠 Actividad 2: Simulacro 'Red Team' con XOLO</h2>
+                    <h2>🧠 Actividad 2: Táctica 'Be The Algorithm' (Webhook Edition)</h2>
                     <div class="activity-timer">
-                        <span class="activity-duration">⏱️ 15:00</span>
-                        <button class="timer-start-btn" data-duration="900">Iniciar</button>
+                        <span class="activity-duration">⏱️ 10:00</span>
+                        <button class="timer-start-btn" data-duration="600">Iniciar</button>
                     </div>
                 </div>
-
                 <div class="roles-section">
                     <div class="role-card role-teacher">
                         <h4>👨‍🏫 Rol del Maestro</h4>
                         <ul>
-                            <li>Indicar: "Abran el chat con XOLO. Díganle una acción de su robot y dejen que él encuentre los problemas".</li>
-                            <li>Monitorear que los alumnos no ignoren los fallos sugeridos.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-xolo">
-                        <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">🔥 MODO RED TEAM</p>
-                        <ul>
-                            <li>Cuestiona activamente: "¿Y si la cámara no ve el color?", "¿Y si el servo se atasca?".</li>
-                            <li>Sugiere soluciones técnicas: Timeouts, reintentos, señales de alerta.</li>
+                            <li>Coordinar la simulación física: 1 Alumno es el Frontend (envía JSON), 1 es el Network (valida Headers), 1 es Make.com (procesa y responde).</li>
+                            <li>Introducir variables de error: "¿Qué pasa si el servidor responde 500?".</li>
                         </ul>
                     </div>
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Interactuar con XOLO describiendo pasos de su robot.</li>
-                            <li>Responder a los "¿Qué pasa si...?" de la IA.</li>
-                            <li>Anotar los posibles fallos descubiertos.</li>
+                            <li>Frontend: Redactar el objeto JSON de salida.</li>
+                            <li>Make.com: Simular la lógica del escenario y devolver un JSON de confirmación o error.</li>
                         </ul>
                     </div>
                 </div>
-
                 <div class="slide-reference">
-                    <h4>📊 Diapositiva 2 y 3: Red Team</h4>
+                    <h4>📊 Diapositiva 2: El Ciclo de Vida del Dato</h4>
                     <div class="slide-content">
-                        <p><strong>💬 Reto con XOLO:</strong></p>
-                        <div class="prompt-box">
-                            <pre>Dile a XOLO: "Mi robot tiene que [acción]. ¿Qué podría salir mal?"</pre>
-                        </div>
-                        <p class="highlight-text" style="margin-top: 1rem;">🔍 Ejemplo: "Mi brazo agarra el cubo." -> 🤖 Xolo: "¿Qué pasa si el cubo está muy lejos? ¿Debe el robot avanzar o rendirse?"</p>
-                    </div>
-                </div>
-
-                <div class="optional-script">
-                    <button class="collapsible-button">📖 Ver guion detallado</button>
-                    <div class="collapsible-content">
-                        <p class="dialogue assistant">"Es hora del ataque. XOLO será su 'Red Team'. Abran el chat y cuéntenle qué debe hacer su robot. Él va a intentar encontrar huecos en su lógica. No se asusten, ¡es mejor que XOLO encuentre el error hoy en la pantalla, a que el robot falle mañana en la competencia!"</p>
+                        <p class="highlight-text">Request -> Webhook -> Processing -> Response</p>
+                        <p>No solo es enviar datos, es esperar la promesa de que el backend ha hecho su trabajo.</p>
                     </div>
                 </div>
             </div>
-
-            <!-- ACTIVIDAD 3: BRAIN SPARK - BLUEPRINT ROBUSTO -->
+            <!-- ACTIVIDAD 3: VIBE CODING -->
             <div class="activity-card" id="activity-3">
                 <div class="activity-header">
-                    <h2>💡 Actividad 3: Brain Spark - El Blueprint Robusto</h2>
+                    <h2>💡 Actividad 3: Vibe Coding - Implementación Fetch</h2>
                     <div class="activity-timer">
-                        <span class="activity-duration">⏱️ 15:00</span>
-                        <button class="timer-start-btn" data-duration="900">Iniciar</button>
+                        <span class="activity-duration">⏱️ 10:00</span>
+                        <button class="timer-start-btn" data-duration="600">Iniciar</button>
                     </div>
                 </div>
-
                 <div class="roles-section">
                     <div class="role-card role-teacher">
                         <h4>👨‍🏫 Rol del Maestro</h4>
                         <ul>
-                            <li>Pedir que llenen la sección "Manejo de Errores" en sus hojas.</li>
-                            <li>Guiar el formato: <strong>Si pasa [Error] -> Entonces hacer [Acción]</strong>.</li>
+                            <li>Guiar la sesión de Vibe Coding: En lugar de teclear línea por línea, usar la IA para generar el boilerplate del Fetch.</li>
+                            <li>Enfatizar el manejo de `async/await`.</li>
                         </ul>
                     </div>
                     <div class="role-card role-xolo">
                         <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">✅ CONSULTOR TÉCNICO</p>
-                        <ul>
-                            <li>Ayuda a redactar la lógica de recuperación.</li>
-                            <li>Ejemplo: "Si sensor < 5cm por 10 seg, entonces retroceder y girar".</li>
-                        </ul>
+                        <p class="xolo-status">⏸️ XOLO EN ESPERA</p>
                     </div>
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Documentar las soluciones a los fallos encontrados.</li>
-                            <li>Actualizar el Blueprint para que incluya planes de contingencia.</li>
+                            <li>Crear un prompt efectivo para generar la función de integración: "Genera una función asíncrona en JS para enviar un formulario a un webhook...".</li>
+                            <li>Implementar y probar la comunicación con el backend (Make/Python).</li>
                         </ul>
                     </div>
                 </div>
-
                 <div class="slide-reference">
-                    <h4>📊 Diapositiva 4: Documentación</h4>
+                    <h4>📊 Diapositiva 3: Prompting para Integración</h4>
                     <div class="slide-content">
-                        <p><strong>📝 Nueva Sección: Manejo de Errores</strong></p>
-                        <ul>
-                            <li><strong>Trigger (Gatillo):</strong> ¿Cuál es el fallo? (Ej. No veo la tarjeta roja).</li>
-                            <li><strong>Acción de Recuperación:</strong> ¿Qué hace el robot? (Ej. Girar 360° buscando, o encender luz roja de error).</li>
-                        </ul>
+                        <div class="prompt-box">
+                            <pre>Dile a tu IA de desarrollo: "Crea una función asíncrona llamada 'sendData' que use Fetch API para enviar un objeto JSON a [URL]. Incluye manejo de errores con try/catch y valida que la respuesta sea ok."</pre>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <!-- ACTIVIDAD 4: CIERRE Y REFLEXIÓN -->
+            <!-- ACTIVIDAD 4: THE BUG BASH -->
             <div class="activity-card" id="activity-4">
                 <div class="activity-header">
-                    <h2>⚡ Actividad 4: Gnius STORM - Cierre</h2>
+                    <h2>🛡️ Actividad 4: Táctica 'The Bug Bash' con XOLO</h2>
                     <div class="activity-timer">
-                        <span class="activity-duration">⏱️ 3:00</span>
-                        <button class="timer-start-btn" data-duration="180">Iniciar</button>
+                        <span class="activity-duration">⏱️ 10:00</span>
+                        <button class="timer-start-btn" data-duration="600">Iniciar</button>
                     </div>
                 </div>
-
                 <div class="roles-section">
                     <div class="role-card role-teacher">
                         <h4>👨‍🏫 Rol del Maestro</h4>
                         <ul>
-                            <li>Felicitar a los equipos por sus sistemas "Antifragiles".</li>
-                            <li>Reflexión rápida sobre la importancia de prever errores.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-student">
-                        <h4>👦 Rol del Alumno</h4>
-                        <ul>
-                            <li>Compartir con otra pareja un fallo crítico que descubrieron y cómo planean solucionarlo.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="slide-reference">
-                    <h4>📊 Diapositiva 5: Think-Pair-Share</h4>
-                    <div class="slide-content tps-structure">
-                        <div class="tps-phase">
-                            <h4>🤔 THINK</h4>
-                            <p>¿Cuál fue el fallo más peligroso que XOLO encontró en mi diseño?</p>
-                        </div>
-                        <div class="tps-phase">
-                            <h4>💬 SHARE</h4>
-                            <p>Cuéntale a tu compañero: "Mi robot iba a fallar si [condición], pero ahora va a [solución]."</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ACTIVIDAD 5: GUARDADO Y EVIDENCIAS -->
-            <div class="activity-card" id="activity-5">
-                <div class="activity-header">
-                    <h2>✅ Actividad 5: Guardado de Planos</h2>
-                    <div class="activity-timer">
-                        <span class="activity-duration">⏱️ 2:00</span>
-                        <button class="timer-start-btn" data-duration="120">Iniciar</button>
-                    </div>
-                </div>
-
-                <div class="roles-section">
-                    <div class="role-card role-teacher">
-                        <h4>👨‍🏫 Rol del Maestro</h4>
-                        <ul>
-                            <li>Asegurar que los Blueprints físicos o digitales estén guardados.</li>
-                            <li>Confirmar que están listos para la fase de construcción (siguiente sesión).</li>
+                            <li>Introducir el concepto de "Auditoría de Seguridad": ¿Están las credenciales en el código? ¿El código es legible para un humano?</li>
+                            <li>Supervisar la interacción con Xolo como revisor senior.</li>
                         </ul>
                     </div>
                     <div class="role-card role-xolo">
                         <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">⭕ XOLO FINALIZADO</p>
+                        <p class="xolo-status">✅ SENIOR CODE REVIEWER ACTIVADO</p>
+                        <ul>
+                            <li>Detecta funciones "espagueti" y variables mal nombradas.</li>
+                            <li>Valida que el manejo de errores sea robusto.</li>
+                            <li>Refactoriza para cumplir estándares profesionales.</li>
+                        </ul>
                     </div>
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Guardar su "Blueprint Robusto".</li>
-                            <li>Cerrar sesión en Gnius Space.</li>
+                            <li>Entregar su código a Xolo con el prompt RCTFA de la Actividad 0.</li>
+                            <li>Aplicar las correcciones sugeridas y documentar el cambio más importante.</li>
                         </ul>
                     </div>
                 </div>
-
-                <div class="slide-reference">
-                    <h4>📊 Diapositiva Final</h4>
-                    <div class="slide-content">
-                        <p><strong>📁 ¡Listos para Construir!</strong></p>
-                        <p class="highlight-text">Hoy diseñaron un sistema inteligente. La próxima clase... ¡le daremos vida!</p>
-                        <p>Guarda bien tu hoja de Manejo de Errores.</p>
+            </div>
+            <!-- ACTIVIDAD 5: CIERRE -->
+            <div class="activity-card" id="activity-5">
+                <div class="activity-header">
+                    <h2>⚡ Actividad 5: Cierre - Deuda Técnica</h2>
+                    <div class="activity-timer">
+                        <span class="activity-duration">⏱️ 5:00</span>
+                        <button class="timer-start-btn" data-duration="300">Iniciar</button>
+                    </div>
+                </div>
+                <div class="roles-section">
+                    <div class="role-card role-teacher">
+                        <h4>👨‍🏫 Rol del Maestro</h4>
+                        <ul>
+                            <li>Reflexionar sobre la importancia de la calidad sobre la cantidad de código.</li>
+                            <li>Explicar que el "Vibe Coding" requiere supervisión constante de la IA.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card role-student">
+                        <h4>👦 Rol del Alumno</h4>
+                        <ul>
+                            <li>Subir a Gnius Space: 1) Captura del código integrado y 2) Captura del prompt de auditoría usado en Xolo o IA externa.</li>
+                            <li>Anotar una mejora pendiente para la próxima sesión (Deuda Técnica).</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
         </main>
     </div>
-
-    <script src="script.js"></script>
+    <script>
+        document.querySelectorAll('.collapsible-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+        function copyPrompt(id) {
+            const text = document.getElementById(id).innerText;
+            navigator.clipboard.writeText(text);
+            alert('Prompt copiado al portapapeles');
+        }
+    </script>
 </body>
 </html>
