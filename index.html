@@ -309,18 +309,6 @@
             </div>
         </main>
     </div>
-    <script>
-        document.querySelectorAll('.collapsible-button').forEach(button => {
-            button.addEventListener('click', () => {
-                const content = button.nextElementSibling;
-                content.style.display = content.style.display === 'block' ? 'none' : 'block';
-            });
-        });
-        function copyPrompt(id) {
-            const text = document.getElementById(id).innerText;
-            navigator.clipboard.writeText(text);
-            alert('Prompt copiado al portapapeles');
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
